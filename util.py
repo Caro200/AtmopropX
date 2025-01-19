@@ -1,5 +1,6 @@
 import numpy as np
 
+
 def load_csv(filename, sep=';', skiprows=0):
     return np.loadtxt(open(filename, "rb"), delimiter=sep, skiprows=skiprows)
 
